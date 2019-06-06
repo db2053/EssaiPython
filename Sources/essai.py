@@ -3,6 +3,9 @@ from openpyxl import load_workbook
 
 verbose = 10
 
+"""
+Class pour la gestion d'une feuille de résultat
+"""
 class CLASS_resultSheet:
     class CLASS_indexCol:
         class CLASS_indexColData:
