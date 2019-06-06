@@ -7,7 +7,11 @@ verbose = 10
 Class pour la gestion d'une feuille de résultat
 """
 class CLASS_resultSheet:
+    """
+    Classe pour l'indexation des lignes et des colonne
+    """
     class CLASS_indexCol:
+        
         class CLASS_indexColData:
             def __init__(self, refCol, col):
                 self.refCol = refCol
